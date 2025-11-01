@@ -1,0 +1,14 @@
+.not-found-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.not-found-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(10,23,35);
+}

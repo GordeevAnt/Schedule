@@ -1,6 +1,7 @@
 import Home_Button from "../shared/Home_Button";
 import Personal_Account_Button from "../shared/Personal_Account_Button";
 import Search_Bar from "../shared/Search_Bar";
+import "./Header.css"
 
 //
 // Хедер (верхняя часть сайта)

@@ -1,4 +1,5 @@
 import Page_Title from '../shared/Page_Title';
+import "./Not_Found_Page.css"
 
 //
 // Страница 404
@@ -8,10 +9,11 @@ export default function Not_Found_Page() {
     return <>
         <Page_Title title="404 – несуществующая страница"/>
         <div className='not-found-container'>
-            <img src="../../public/train.svg" alt="Train" />
-            <div className='not-found-sheduleXtext'>
-                <img src="../../public/schedule-remove.svg" alt="Schedule_X" />
-                <p>Страница не найдена :(</p>
+            <img src="/train.svg" alt="Train" />
+            <div className='not-found-text'>
+                <img src="/schedule-remove.svg" alt="Schedule_X" />
+                <p>Такой страницы не существует :(</p>
+                <p>Попробуйте проверить<br></br>верно ли указан адрес</p>
             </div>
         </div>
     </>

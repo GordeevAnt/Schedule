@@ -3,5 +3,5 @@
 //
 
 export default function Search_Bar() {
-    return <input placeholder="Искать расписание..."></input>
+    return <input className="search-bar" placeholder="Искать расписание..."></input>
 }

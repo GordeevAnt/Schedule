@@ -3,6 +3,7 @@ import Main_Page from "../pages/Main_Page";
 import Personal_Account_Page from "../pages/Personal_Account_Page";
 import Layout from "./Layout";
 import Not_Found_Page from "../pages/Not_Found_Page";
+import "./App.css"
 
 //
 // Компонент для маршрутизации
