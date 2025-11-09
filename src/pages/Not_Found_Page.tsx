@@ -6,7 +6,7 @@ import "./Not_Found_Page.css"
 //
 
 export default function Not_Found_Page() {
-    return <>
+    return <div className='page_wrapper'>
         <Page_Title title="404 – несуществующая страница"/>
         <div className='not-found-container'>
             <img src="/train.svg" alt="Train" />
@@ -16,5 +16,5 @@ export default function Not_Found_Page() {
                 <p>Попробуйте проверить<br></br>верно ли указан адрес</p>
             </div>
         </div>
-    </>
+    </div>
 }

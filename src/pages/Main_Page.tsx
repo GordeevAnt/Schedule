@@ -6,10 +6,10 @@ import Page_Title from "../shared/Page_Title"
 //
 
 export default function Main_Page() {
-    return <>
+    return <div className="page_wrapper">
         <Page_Title title="Главная"/>
         <div className="container">
             <Table_List/>
         </div>
-    </>
+    </div>
 }
