@@ -5,7 +5,7 @@ import Page_Title from "../shared/Page_Title";
 //
 
 export default function Personal_Account_Page() {
-    return <>
+    return <div className="page_wrapper">
         <Page_Title title="Личный кабинет"/>
-    </>
+    </div>
 }

@@ -9,9 +9,9 @@ export default function Not_Found_Page() {
     return <div className='page_wrapper'>
         <Page_Title title="404 – несуществующая страница"/>
         <div className='not-found-container'>
-            <img src="/train.svg" alt="Train" />
+            <img src="/img/train.svg" alt="Train" />
             <div className='not-found-text'>
-                <img src="/schedule-remove.svg" alt="Schedule_X" />
+                <img src="/img/schedule-remove.svg" alt="Schedule_X" />
                 <p>Такой страницы не существует :(</p>
                 <p>Попробуйте проверить<br></br>верно ли указан адрес</p>
             </div>
