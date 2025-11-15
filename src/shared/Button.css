@@ -1,0 +1,38 @@
+/* shared/Button.css */
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    background: white;
+    color: #495057;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Размеры кнопок */
+.btn--sm {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.btn--md {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.btn--lg {
+    font-size: 18px;
+    padding: 12px 24px;
+}

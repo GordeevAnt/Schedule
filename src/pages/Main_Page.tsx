@@ -1,15 +1,30 @@
+import Table_Item from "../features/Table_Item"
 import Table_List from "../features/Table_List"
 import Page_Title from "../shared/Page_Title"
+import "./Main_Page.css"
 
 //
 // Главная страница со всеми расписаниями
 //
 
 export default function Main_Page() {
-    return <div className="page_wrapper">
-        <Page_Title title="Главная"/>
-        <div className="container">
-            <Table_List/>
+    return (
+        <div className="page_wrapper">
+            <Page_Title title="Главная"/>
+
+            <div className="page_container">
+                
+                <div className="navbar">
+                    <button className="nav_button">Группы</button>
+                    <button className="nav_button">Кафедра</button>
+                </div>
+
+                <div className="tables_container">
+                    <Table_List/>
+                    <Table_Item/>
+                </div>
+            
+            </div>
         </div>
-    </div>
+    )
 }

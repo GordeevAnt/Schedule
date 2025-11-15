@@ -1,0 +1,49 @@
+.page_container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: white;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e9ecef;
+}
+
+.tables_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex: 1;
+    min-height: 500px;
+    height: 100%;
+}
+
+.nav_button {
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    background: white;
+    color: #495057;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav_button:hover {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
