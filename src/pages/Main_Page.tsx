@@ -1,5 +1,7 @@
 import Table_Item from "../features/Table_Item"
 import Table_List from "../features/Table_List"
+// import getCurrentWeek from "../shared/Current_Week"
+import getCurrentWeek from "../shared/Current_Week"
 import Page_Title from "../shared/Page_Title"
 import "./Main_Page.css"
 
@@ -15,6 +17,7 @@ export default function Main_Page() {
             <div className="page_container">
                 
                 <div className="navbar">
+                    <h1>{getCurrentWeek()} неделя</h1>
                     <button className="nav_button">Группы</button>
                     <button className="nav_button">Кафедра</button>
                 </div>
