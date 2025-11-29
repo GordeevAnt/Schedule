@@ -1,8 +1,7 @@
-import Table_Item from "../features/Table_Item"
 import Table_List from "../features/Table_List"
-// import getCurrentWeek from "../shared/Current_Week"
 import getCurrentWeek from "../shared/Current_Week"
 import Page_Title from "../shared/Page_Title"
+import Static_Table from "../widgets/Static_Table"
 import "./Main_Page.css"
 
 //
@@ -24,7 +23,7 @@ export default function Main_Page() {
 
                 <div className="tables_container">
                     <Table_List/>
-                    <Table_Item/>
+                    <Static_Table/>
                 </div>
             
             </div>

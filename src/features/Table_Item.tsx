@@ -4,9 +4,9 @@ import "./Table_Item.css"
 // Компонент с отдельным расписанием
 //
 
-export default function Table_Item() {
-    return <div className="static_table">
-        <h1>Ваше расписание</h1>
+export default function Table_Item({text} : {text: string}) {
+    return <div>
+        <h1>{text}</h1>
         <table>
             <thead>
                 <tr>
