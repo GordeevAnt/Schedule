@@ -1,12 +1,9 @@
-// import Table_Item from "./Table_Item"
 import Table_Item from "./Table_Item"
 import "./Table_List.css"
 
 //
 // Контейнер с расписаниями
 //
-
-{/*return <Table_Item/> */}
 
 export default function Table_List() {
     return <div className="scrollable_table">

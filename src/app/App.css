@@ -28,7 +28,7 @@ body {
 }
 
 .left_block, .right_block {
-    flex: 0 0 200px;
+    flex: 0 0 100px;
 }
 
 .page_wrapper {
